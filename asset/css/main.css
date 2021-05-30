@@ -3750,7 +3750,7 @@ form.f1 button[type="submit"].custom-btn.primary:not(:hover):not(:focus) {
 #top-bar__logo_main {
   float: left;
   width: 44px;
-  height: 44px;
+  height: 58px;
   background-image: url(../img/home_img/logo.png);
   -webkit-background-size: 100% 100%;
   background-size: 100%;
@@ -6602,6 +6602,12 @@ form.f1 button[type="submit"].custom-btn.primary:not(:hover):not(:focus) {
   }
   .top-bar--style-1:not(.fixed) #top-bar__logo_main {
     background-image: url(../img/home_img/logo.png);
+    width: 44px;
+    height: 58px;
+    color: white;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 22px;
   }
   .top-bar--style-1:not(.fixed)
     #top-bar__navigation
