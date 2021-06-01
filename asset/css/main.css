@@ -3258,7 +3258,7 @@ img {
   position: relative;
 }
 
-.g_map {
+.map_class {
   min-height: 385px;
   height: 100%;
 }
@@ -4937,8 +4937,8 @@ form.f1 button[type="submit"].custom-btn.primary:not(:hover):not(:focus) {
 #footer .site-logo {
   background-image: url(../img/home_img/logo.png);
   background-color: rgba(0, 0, 0, 0.25);
-  width: 253px;
-  height: 71px;
+  width: 100px;
+  height: 100px;
 }
 
 #footer .footer__title {

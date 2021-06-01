@@ -1,6 +1,6 @@
 var map;
 function initMap() {
-  var myLatLng = {lat: 10.660268214236172, lng:  104.16591564778169};
+  var myLatLng = {lat: 10.593387, lng:  103.790120};
   var styleArray = [
     {
         "featureType": "all",
@@ -51,14 +51,13 @@ function initMap() {
 ]
 
   var mapOptions = {
-    zoom: 12,
+    zoom: 15,
     center: myLatLng,
     styles: styleArray,
     scrollwheel: false
   };
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
-  
   var image = 'assets/img/map_marker.png';
   var marker = new google.maps.Marker({
     position: myLatLng,
