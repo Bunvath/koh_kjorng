@@ -58,7 +58,7 @@ function initMap() {
   };
 
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
-  var image = 'assets/img/map_marker.png';
+  var image = '../img/marker.svg';
   var marker = new google.maps.Marker({
     position: myLatLng,
     map: map,
