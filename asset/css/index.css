@@ -764,8 +764,8 @@ _:future {
 
   .start-screen__content .title {
     line-height: 0.8;
-    font-size: 80px;
-    letter-spacing: 10px;
+    font-size: 40px;
+    letter-spacing: 5px;
   }
 
   .start-screen__content .subtitle {
@@ -793,12 +793,12 @@ _:future {
   }
 
   .start-screen__content .title {
-    font-size: 110px;
-    letter-spacing: 15px;
+    font-size: 50px;
+    letter-spacing: 10px;
   }
 
   .start-screen__content .subtitle {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 
@@ -813,15 +813,15 @@ _:future {
   }
 
   .start-screen__content .title {
-    font-size: 130px;
-    letter-spacing: 20px;
+    font-size: 60px;
+    letter-spacing: 10px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .start-screen__content .title {
-    font-size: 150px;
-    letter-spacing: 30px;
+    font-size: 80px;
+    letter-spacing: 20px;
   }
 }
 
